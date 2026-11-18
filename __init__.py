@@ -87,6 +87,7 @@ from .nodes.ideogram4_nodes import Ideogram4PromptBuilderKJ
 from .nodes.flux3_nodes import Flux3PromptBuilderKJ, Flux3BoxReconcileKJ
 from .nodes.moss_image_nodes import MossImagePromptBuilderKJ
 from .nodes.ming_image_nodes import MingImagePromptBuilderKJ
+from .nodes.color_calibrator_nodes import ColorCalibrator
 
 import logging
 
@@ -200,6 +201,7 @@ NODE_CONFIG = {
     "Flux3BoxReconcileKJ": {"class": Flux3BoxReconcileKJ, "name": "FLUX.3 Box Reconcile KJ"},
     "MossImagePromptBuilderKJ": {"class": MossImagePromptBuilderKJ, "name": "MOSS-Image Prompt Builder KJ"},
     "MingImagePromptBuilderKJ": {"class": MingImagePromptBuilderKJ, "name": "Ming-Image Prompt Builder KJ"},
+    "ColorCalibrator": {"class": ColorCalibrator, "name": "Color Calibrator"},
     "HDRPreviewKJ": {"class": HDRPreviewKJ, "name": "HDR Preview KJ"},
     "ModelPreviewOverrideKJ": {"class": ModelPreviewOverrideKJ, "name": "Model Preview Override KJ"},
     "GetPreviewOverrideFramesKJ": {"class": GetPreviewOverrideFramesKJ, "name": "Get Preview Override Frames KJ"},
